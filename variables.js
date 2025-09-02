@@ -40,3 +40,28 @@ console.log(user);
 /* Ressignment is not allowed in the const veriable */
 
 //Example:- user = {name:"Umar Ali"}
+
+/*-------------------------------------------------------------*/
+
+// Redeclaration concept of veriables.
+
+/* With var we can redeclare the same variable in the same scope JavaScript will not throw 
+any kind of error it just overwrites silently. */
+
+// Example
+var x = 10;
+var x = 20; //output 20
+console.log(x);
+
+/* with the let & const we can not redeclare the variable in the same scope*/
+
+//Example
+// let y = 30;
+// let y = 40; Error throw identifire has already been declare
+
+// //or 
+
+// const z = 50;
+// const z = 60; Error throw identifire has already been declare
+
+// let and const has block scope so that we can declare them in the differnt block
