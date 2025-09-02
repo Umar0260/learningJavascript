@@ -25,3 +25,18 @@ function blockScope(){
     } 
 }
 blockScope();
+
+/*If a const variable hold an object then be can modefied the object value but can't reassign the 
+the const veriable.*/
+
+// example
+
+const user = {name : "Umar", age : 25};
+user.name = "Umar Ali";
+user.age = 30;
+user.city = "Mumbai";
+console.log(user);
+
+/* Ressignment is not allowed in the const veriable */
+
+//Example:- user = {name:"Umar Ali"}
