@@ -3,7 +3,7 @@
 const PI= 3.14;  // containt constant value only.
 var studenName = "Umar" // functional scope
 let studentCity = "Delhi" // block scope
-age = 30
+age = 30 //globle window scope
 
 console.table([PI, studenName, studentCity, age])
 
